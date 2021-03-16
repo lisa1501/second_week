@@ -50,19 +50,19 @@
 # print("id of apples:", id(apples))
 # print("id of oranges:", id(oranges))
 
-my_list=[[1,2,3],[4,5,6]]
-print(my_list)
-print("my_list id is :",id(my_list))
-my_list[0].append(9)
-print(my_list)
-print("my_list id is:",id(my_list))
+# my_list=[[1,2,3],[4,5,6]]
+# print(my_list)
+# print("my_list id is :",id(my_list))
+# my_list[0].append(9)
+# print(my_list)
+# print("my_list id is:",id(my_list))
 
-my_list_second=[{"name":"halise","ID":115},{"name":"hedi","ID":223}]
-print(my_list_second)
-print("my_list_second id is:",id(my_list_second))
-my_list_second[1]["pro"]="she/her"
-print(my_list_second)
-print("my_list_second id is:",id(my_list_second))
+# my_list_second=[{"name":"halise","ID":115},{"name":"hedi","ID":223}]
+# print(my_list_second)
+# print("my_list_second id is:",id(my_list_second))
+# my_list_second[1]["pro"]="she/her"
+# print(my_list_second)
+# print("my_list_second id is:",id(my_list_second))
 
 # def add_clovers(charms):
 #     print("==== Appending 'clovers' to charms ====")
@@ -79,3 +79,21 @@ print("my_list_second id is:",id(my_list_second))
 # print("==== After calling add_clovers ====")
 # print("id of berries:", id(berries))
 # print("value of berries:", berries)
+
+
+
+# import string
+# letters =list(string.ascii_lowercase)
+# print(letters)
+
+# def get_last_letter(letters):
+#       letter =letters.pop()
+#       return letter
+# letter =get_last_letter(letters)
+# print(letter)
+# print(letters)
+
+value_1=None
+print("id of value_1:", id(value_1))
+value_1=None
+print("id of value_1:", id(value_1))
