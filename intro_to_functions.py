@@ -93,7 +93,47 @@
 # print(letter)
 # print(letters)
 
-value_1=None
-print("id of value_1:", id(value_1))
-value_1=None
-print("id of value_1:", id(value_1))
+# value_1=None
+# print("id of value_1:", id(value_1))
+# value_1=None
+# print("id of value_1:", id(value_1))
+
+
+# def sort_contestants_age_desc():
+#       inform_list=[
+#         {"name":"Mae","age":31},
+#         {"name":"Brandi","age":22},
+#         {"name":"Dane","age":44},
+#         {"name":"Neo","age":39},
+#         {"name":"Amara","age":36},
+#         {"name":"Jules","age":28}
+#         ]
+      
+#       inform_list=inform_list.sort()
+#       print(inform_list)
+
+#       # my_list=[]
+#       # return my_list
+# sort_contestants_age_desc()
+
+
+# def get_a_num():
+#       for i in range(33):
+#             if i % 3 != 0:
+#                   continue
+#             print(f"{i} is divisible by 3!")
+# get_a_num()
+
+karaoke_queue = {
+        "Rajan": ["I Want It That Way", "Jolene"],
+        "Akira": ["Return of the Mack", "Mr. Brightside"],
+        "Linh": ["Say My Name", "Since You Been Gone"]
+    }
+def get_song_list(karaoke_queue):
+    my_list=[]
+    for singer in karaoke_queue:
+      #   for name in karaoke_queue[singer]:
+            my_list.append(karaoke_queue[singer])
+       
+    return my_list
+get_song_list(karaoke_queue)
